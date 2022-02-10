@@ -5,7 +5,7 @@ const typeDefs = gql`
 
   # User Definitions
   type User {
-    id: ID!
+    id: String!
     name: String!
   }
 
