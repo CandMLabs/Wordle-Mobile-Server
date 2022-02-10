@@ -4,7 +4,9 @@
   "description": "Backend server for handling requests for wordle mobile app",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "start": "node server/index.js",
+    "start-dev": "npx nodemon server/index.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +17,9 @@
   "bugs": {
     "url": "https://github.com/CandMLabs/Wordle-Mobile-Server/issues"
   },
-  "homepage": "https://github.com/CandMLabs/Wordle-Mobile-Server#readme"
+  "homepage": "https://github.com/CandMLabs/Wordle-Mobile-Server#readme",
+  "dependencies": {
+    "apollo-server": "^3.6.3",
+    "graphql": "^16.3.0"
+  }
 }
