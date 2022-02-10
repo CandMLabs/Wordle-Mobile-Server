@@ -1,0 +1,19 @@
+{
+  "name": "wordle-mobile-server",
+  "version": "1.0.0",
+  "description": "Backend server for handling requests for wordle mobile app",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CandMLabs/Wordle-Mobile-Server.git"
+  },
+  "author": "CandMLabs",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CandMLabs/Wordle-Mobile-Server/issues"
+  },
+  "homepage": "https://github.com/CandMLabs/Wordle-Mobile-Server#readme"
+}
